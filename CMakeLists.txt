@@ -10,9 +10,10 @@ project(wild_thumper_ros)
 find_package(catkin REQUIRED COMPONENTS
   rospy
   tf
-  ros_controllers
   roslaunch
   xacro
+  controller_manager
+  diff_drive_controller
 )
 
 ## System dependencies are found with CMake's conventions
