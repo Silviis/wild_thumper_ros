@@ -119,6 +119,8 @@
 			<robotNamespace>/</robotNamespace>
 			<robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
 		</plugin>
+	</gazebo>
+
 
 	<transmission name="front_right_trans" type="SimpleTransmission">
 		<type>transmission_interface/SimpleTransmission</type>
